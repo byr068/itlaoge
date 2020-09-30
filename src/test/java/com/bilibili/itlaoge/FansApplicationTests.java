@@ -56,6 +56,7 @@ class FansApplicationTests {
 		String name = "张三";
 		Handler strategy = Factory.getInvokeStrategy(name);
 		strategy.AAA(name);
+		System.out.println("test");
 	}
 
 }
